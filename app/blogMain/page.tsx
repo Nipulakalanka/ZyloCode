@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+
 import { BlogHero } from '@/components/blog/BlogHero'
 import { BlogGrid } from '@/components/blog/BlogGrid'
 import { BlogNewsletter } from '@/components/blog/BlogNewsletter'

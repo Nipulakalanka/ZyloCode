@@ -67,12 +67,15 @@ export function TestimonialCard({ testimonial, isDark }: TestimonialCardProps) {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <p className={`
-              mb-6 text-lg italic
-              ${isDark ? 'text-gray-300' : 'text-gray-600'}
-            `}>
-              "{testimonial.quote}"
+           <p
+              className={`
+                mb-6 text-lg italic
+                ${isDark ? 'text-gray-300' : 'text-gray-600'}
+              `}
+            >
+              &ldquo; {testimonial.quote} &rdquo;
             </p>
+
             
             <motion.div 
               className="flex"

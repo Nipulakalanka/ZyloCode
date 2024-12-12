@@ -8,17 +8,17 @@ const products = [
   {
     name: 'ZyloAI Assistant',
     description: 'Experience the future of business automation with our advanced AI-powered virtual assistant. Streamline operations, enhance customer service, and boost productivity with intelligent automation.',
-    image: '/zyloai-assistant.jpg'
+    image: ''
   },
   {
     name: 'ZyloVision',
     description: 'Revolutionary computer vision solution that transforms visual inspection processes. Leverage deep learning for real-time quality control, defect detection, and automated visual analysis.',
-    image: '/zylovision.jpg'
+    image: ''
   },
   {
     name: 'ZyloPredict',
     description: 'Harness the power of predictive analytics to make data-driven decisions. Our platform combines machine learning with business intelligence for accurate forecasting and strategic insights.',
-    image: '/zylopredict.jpg'
+    image: ''
   }
 ]
 
@@ -68,7 +68,7 @@ export function Products() {
       </div>
 
       {isChristmas && (
-        <div className="absolute inset-0 z-0 bg-[url('/snowflake-pattern.png')] opacity-10" />
+        <div className="absolute inset-0 z-0  opacity-10" />
       )}
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -43,7 +43,7 @@ export function FAQ() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-network-24970-large.mp4" type="video/mp4" />
+          {/* <source src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-network-24970-large.mp4" type="video/mp4" /> */}
         </video>
         <div className={`absolute inset-0 ${isDark 
         ? 'bg-gradient-to-b from-gray-900 to-black text-white' 

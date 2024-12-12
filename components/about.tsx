@@ -12,8 +12,8 @@ export function About() {
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-10"
         style={{
           backgroundImage: theme === 'christmas'
-            ? "url('/christmas-pattern.jpg')"
-            : "url('/circuit-pattern.jpg')",
+            ? "url('')"
+            : "url('')",
         }}
       />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

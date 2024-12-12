@@ -18,7 +18,7 @@ interface TeamMemberProps {
 }
 
 export function TeamMemberCard({ name, role, image, bio, linkedin, twitter, github, index }: TeamMemberProps) {
-  const { theme, isChristmas, colorMode } = useTheme()
+  const {  colorMode } = useTheme()
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}

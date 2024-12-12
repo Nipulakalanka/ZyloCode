@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { useTheme } from '@/components/providers/providers_theme-provider'
-import Image from 'next/image'
 import { TestimonialsHeader } from './TestimonialsHeader'
 import { TestimonialCard } from './TestimonialsCard'
 import { testimonials } from '@/data/testimonials-post'
