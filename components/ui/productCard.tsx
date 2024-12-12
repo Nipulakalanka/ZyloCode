@@ -9,11 +9,10 @@ import { useTheme } from '@/components/providers/providers_theme-provider'
 interface ProductCardProps {
   name: string
   description: string
-  image: string
   index: number
 }
 
-export function ProductCard({ name, description, image, index }: ProductCardProps) {
+export function ProductCard({ name, description, index }: ProductCardProps) {
   const { colorMode } = useTheme()
   const isDark = colorMode === 'dark'
 
@@ -56,7 +55,7 @@ export function ProductCard({ name, description, image, index }: ProductCardProp
             className="h-full"
           >
             <Image
-              src={image}
+              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80"
               alt={name}
               fill
               className="object-cover"

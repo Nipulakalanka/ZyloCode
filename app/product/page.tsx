@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+
 import { ProductHero } from '@/components/product/ProductHero'
 import { ProductGrid } from '@/components/product/ProductGrid'
 import { ProductFeatures } from '@/components/product/ProductFeatures'

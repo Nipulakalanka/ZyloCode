@@ -77,7 +77,7 @@ export function QuestionSection() {
           variants={itemVariants}
           className={`text-xl mb-8 ${colorMode === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}
         >
-          Feel free to ask us anything. We're here to help!
+          Feel free to ask us anything. We&apos;re here to help!
         </motion.p>
         <motion.form 
           variants={itemVariants}

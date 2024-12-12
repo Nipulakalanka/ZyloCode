@@ -111,7 +111,7 @@ export function TechStacks() {
           viewport={{ once: true }}
           className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12"
         >
-          {techStacks.map((tech, index) => (
+          {techStacks.map((tech) => (
             <motion.div
               key={tech.name}
               variants={itemVariants}

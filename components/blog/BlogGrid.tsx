@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+
 import { BlogCard } from './BlogCard'
 import { blogPosts } from '@/data/blog-posts'
 import { useTheme } from '@/components/providers/providers_theme-provider'

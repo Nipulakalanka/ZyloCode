@@ -6,14 +6,21 @@ import Link from 'next/link'
 import { useTheme } from '@/components/providers/providers_theme-provider'
 import { Calendar, Clock, ArrowLeft, Tag } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { blogPosts } from '@/data/blog-posts'
 import { notFound } from 'next/navigation'
+import { getBlogPost } from '@/lib/service/blog'
+import type { BlogPost } from '@/types/blog'
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+interface BlogPostPageProps {
+  params: {
+    slug: string
+  }
+}
+
+export default function BlogPost({ params }: BlogPostPageProps) {
   const { colorMode } = useTheme()
   const isDark = colorMode === 'dark'
   
-  const post = blogPosts.find(p => p.slug === params.slug)
+  const post = getBlogPost(params.slug)
   
   if (!post) {
     notFound()

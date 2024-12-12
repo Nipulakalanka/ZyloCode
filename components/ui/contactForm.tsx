@@ -37,6 +37,7 @@ export function ContactForm() {
       setFormData({ name: '', email: '', message: '' })
       setFormState('sent')
     } catch (error) {
+      if(error instanceof Error) console.error(error.message)
       toast({
         title: "Error sending message",
         description: "Please try again later.",

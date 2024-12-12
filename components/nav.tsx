@@ -89,7 +89,7 @@ export function Nav() {
                 onClick={handleScrollToQuestion}
                 className="bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-all duration-300"
               >
-                Let's Talk
+                Let&apos;s Talk
               </Button>
             </motion.div>
           </div>
@@ -141,7 +141,7 @@ export function Nav() {
                     setIsOpen(false)
                   }}
                 >
-                  Let's Talk
+                  Let&apos;s Talk
                 </Button>
               </motion.div>
             </div>

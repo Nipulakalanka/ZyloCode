@@ -32,7 +32,7 @@ export function ServicesCTA() {
           <p className={`text-xl mb-8 ${
             isDark ? 'text-gray-400' : 'text-gray-600'
           }`}>
-            Let's discuss how we can help you achieve your goals with our innovative solutions.
+            Let&apos;s discuss how we can help you achieve your goals with our innovative solutions.
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}

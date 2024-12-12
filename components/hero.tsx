@@ -2,12 +2,9 @@
 
 import { motion } from 'framer-motion'
 import { useTheme } from '@/components/providers/providers_theme-provider'
-import { Button } from '@/components/ui/button'
 import { Snow } from './snow'
 import { Sparkles, Code2, Cpu, Rocket,Globe  } from 'lucide-react'
 
-import logo from '@/public/Images/logo.png'
-import Image from 'next/image'
 
 const glowVariants = {
   initial: { opacity: 0.5, scale: 1 },
@@ -35,7 +32,7 @@ const floatingIconVariants = {
 }
 
 export function Hero() {
-  const { theme, isChristmas, colorMode } = useTheme()
+  const { isChristmas, colorMode } = useTheme()
 
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">

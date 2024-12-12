@@ -86,7 +86,7 @@ export function QuestionSection() {
             ${isDark ? 'text-gray-300' : 'text-gray-600'}
           `}
         >
-          Feel free to ask us anything. We're here to help!
+          Feel free to ask us anything. We&apos;re here to help!
         </motion.p>
 
         <QuestionForm isDark={isDark} />

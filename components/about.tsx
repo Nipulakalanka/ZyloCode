@@ -34,7 +34,7 @@ export function About() {
           >
             <h3 className="text-2xl font-semibold mb-4 text-gray-800">Our Mission</h3>
             <p className="text-gray-600 mb-4">
-              At ZyloCode, we're on a mission to revolutionize industries through cutting-edge AI solutions. We believe in harnessing the power of artificial intelligence to solve complex problems and drive innovation across various sectors.
+              At ZyloCode, we&apos;re on a mission to revolutionize industries through cutting-edge AI solutions. We believe in harnessing the power of artificial intelligence to solve complex problems and drive innovation across various sectors.
             </p>
             <p className="text-gray-600">
               With offices in Australia and Sri Lanka, we bring a global perspective to local challenges, offering tailored solutions that meet the unique needs of our diverse clientele.
